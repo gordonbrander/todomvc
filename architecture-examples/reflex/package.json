@@ -2,8 +2,8 @@
   "name": "TodoMVC",
   "id": "todo-mvc",
   "version": "0.0.1",
-  "description": "TodoMVC example using reducers",
-  "keywords": [ "reducers", "todo", "mvc", "example" ],
+  "description": "TodoMVC example using reflex library",
+  "keywords": [ "reflex", "reducers", "todo", "mvc", "example" ],
   "author": "Irakli Gozalishvili <rfobic@gmail.com> (http://jeditoolkit.com)",
   "homepage": "https://github.com/addyosmani/todomvc",
   "repository": {
@@ -18,6 +18,8 @@
     "url": "https://github.com/addyosmani/todomvc/issues/"
   },
   "dependencies": {
-    "reducers": "git://github.com/Gozala/reducers.git#experiment/browser"
+    "reflex": "git://github.com/Gozala/reducers.git#master",
+    "reducers": "git://github.com/Gozala/reducers.git#experiment/browser",
+    "compound": ">=0.0.1"
   }
 }
