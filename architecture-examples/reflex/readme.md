@@ -27,6 +27,8 @@ cd todomvc/architecture-examples/reflex
 npm run browserify
 ```
 
+Open `index.html` in your browser. You don't need a local server.
+
 Unfortunately [Browserify][browserify] watch is [broken on OSX 10.7][watch bug],
 but there is a [fix][watch fix] that did not made it to upstream yet. As a
 temporary workaround you could use that fix to get watch working:
