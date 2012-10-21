@@ -18,7 +18,7 @@
     "url": "https://github.com/addyosmani/todomvc/issues/"
   },
   "dependencies": {
-    "reflex": "git://github.com/Gozala/reducers.git#master",
+    "reflex": "git://github.com/Gozala/reflex.git#master",
     "reducers": "git://github.com/Gozala/reducers.git#experiment/browser",
     "compound": ">=0.0.1"
   }
